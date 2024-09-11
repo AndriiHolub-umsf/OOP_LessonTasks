@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pratical_work_01
+namespace Laboratory_work_01
 {
     internal class Program
     {
