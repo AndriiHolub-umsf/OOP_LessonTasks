@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -147,7 +148,12 @@ namespace Laboratory_work_01
 
         static void Main(string[] args)
         {
-            for(int i = 1;i <= ExampleCnt;i++)
+            string s1 = "hello world";
+            string substring = "wor";
+            int index = s1.IndexOf(substring);
+            int bEqual = s1.CompareTo("HELLO WORLD");
+
+            for (int i = 1;i <= ExampleCnt;i++)
             {
                 string ExampleName = "Example0" + i.ToString();
 
